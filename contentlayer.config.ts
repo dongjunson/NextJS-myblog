@@ -22,32 +22,13 @@ const configDocumentType = (docName: string, filePath: string) => {
     },
   }));
 };
-const Js = configDocumentType("Js", "js");
-const Git = configDocumentType("Git", "git");
-const Next = configDocumentType("Next", "next");
-const Other = configDocumentType("Other", "other");
-const React = configDocumentType("React", "react");
-const Types = configDocumentType("Types", "types");
-const Algorithm = configDocumentType("Algorithm", "algorithm");
-const BackEnd = configDocumentType("BackEnd", "backend");
-const DataBase = configDocumentType("DataBase", "db");
-const Server = configDocumentType("Server", "server");
-const Article = configDocumentType("Article", "article");
+const Camping = configDocumentType("Camping", "camping");
+
 
 export default makeSource({
   contentDirPath: "posts",
   documentTypes: [
-    Js,
-    Git,
-    Next,
-    Other,
-    React,
-    Types,
-    Algorithm,
-    BackEnd,
-    DataBase,
-    Server,
-    Article,
+    Camping
   ],
   mdx: {
     rehypePlugins: [rehypeCodeTitles, rehypePrism],

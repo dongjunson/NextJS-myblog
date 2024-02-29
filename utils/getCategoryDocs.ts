@@ -1,17 +1,7 @@
 import * as Articles from "contentlayer/generated";
 
 const categoryMap = {
-  js: Articles.allJs,
-  types: Articles.allTypes,
-  next: Articles.allNexts,
-  react: Articles.allReacts,
-  other: Articles.allOthers,
-  algorithm: Articles.allAlgorithms,
-  backend: Articles.allBackEnds,
-  db: Articles.allDataBases,
-  server: Articles.allServers,
-  git: Articles.allGits,
-  article: Articles.allArticles,
+  camping: Articles.allCampings
 };
 
 type CategoryTypes = keyof typeof categoryMap;

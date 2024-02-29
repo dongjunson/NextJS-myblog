@@ -1,15 +1,5 @@
 import {
-  allAlgorithms,
-  allGits,
-  allJs,
-  allNexts,
-  allOthers,
-  allReacts,
-  allTypes,
-  allDataBases,
-  allBackEnds,
-  allServers,
-  allArticles,
+  allCampings
 } from "contentlayer/generated";
 
 export interface Navlinks {
@@ -19,7 +9,7 @@ export interface Navlinks {
 }
 
 const navlinks: Navlinks[] = [
-  { title: "Camping ⛺", link: "/camping", length: allJs.length }
+  { title: "Camping ⛺", link: "/camping", length: allCampings.length }
 ];
 
 export default navlinks;
