@@ -38,7 +38,7 @@ export default function HeaderNav() {
           <span
             className={`mx-3 font-black text-lg max800:text-sm point-color`}
           >
-            MarX Camping Log
+            Marx Camping Log
           </span>
         </button>
       </Link>
@@ -51,12 +51,7 @@ export default function HeaderNav() {
           {theme === "light" ? <BsSun size="30px" /> : <FiMoon size="30px" />}
         </button>
 
-        <Link href="https://github.com/kagrin97">
-          <a target="_blank" className="mx-4 hover-color">
-            <SiGithub size="22px" />
-          </a>
-        </Link>
-
+      
         {widthSize && !Boolean(widthSize >= 800) && (
           <button className="menu-btn hover-color" onClick={openDrawerHandler}>
             <RiMenu3Line size="22px" />

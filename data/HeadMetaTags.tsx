@@ -18,6 +18,14 @@ const HeadMetaTags = ({ structuredData }: MetaTagProps) => {
         <meta name="twitter:title" content={structuredData.headline} />
 
         <meta name="description" content={structuredData.description} />
+
+
+        
+
+
+
+
+        
         <meta property="og:description" content={structuredData.description} />
         <meta name="twitter:description" content={structuredData.description} />
 
