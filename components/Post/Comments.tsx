@@ -10,7 +10,7 @@ export default function Comments() {
 
     script.src = "https://utteranc.es/client.js";
     script.async = false;
-    script.setAttribute("repo", "kagrin97/NextJS-myblog");
+    script.setAttribute("repo", "dongjunson/NextJS-myblog");
     script.setAttribute("issue-term", "title");
     if (theme === "dark") {
       script.setAttribute("theme", "dark-blue");
