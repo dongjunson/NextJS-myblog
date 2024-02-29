@@ -38,7 +38,7 @@ export default function HeaderNav() {
           <span
             className={`mx-3 font-black text-lg max800:text-sm point-color`}
           >
-            KANG BLOG
+            MarX Camping Log
           </span>
         </button>
       </Link>

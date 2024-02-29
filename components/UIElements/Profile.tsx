@@ -17,7 +17,7 @@ const ProfilePicture = () => {
 const Name = () => {
   return (
     <h2 className="text-lg font-extrabold dark:text-green-500">
-      주인장 강민규
+      Marx
     </h2>
   );
 };
@@ -25,7 +25,7 @@ const Name = () => {
 const Description = () => {
   return (
     <p className="text-sm text-gray-600 dark:text-emerald-200">
-      BDD(blogging driven development)를 지향합니다...
+      사계절 Monica랑 캠핑을 다닙니다.
     </p>
   );
 };

@@ -12,10 +12,10 @@ export interface MetadataType {
 
 export const metadata: MetadataType = {
   type: "blog",
-  title: "KANG BLOG",
-  description: "개발자로서의 개발을 위한 개발생활",
-  author: "kagrin97",
-  url: "https://kagrin97-blog.vercel.app/",
+  title: "Marx Camping BLOG",
+  description: "캠핑 로그",
+  author: "dongjun.son",
+  url: "https://marx-blog-taupe.vercel.app/",
   image: "/imgs/배너.jpg",
 };
 
@@ -77,7 +77,7 @@ const createStructuredData = (post?: Post) => {
     url: metadata.url,
     publisher: {
       "@type": "Organization",
-      name: "KANG BLOG",
+      name: "Marx Blog",
     },
     articleSection: "Technology",
     articleTag: "Programming",

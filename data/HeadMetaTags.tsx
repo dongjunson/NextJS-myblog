@@ -12,7 +12,7 @@ const HeadMetaTags = ({ structuredData }: MetaTagProps) => {
     <Head>
       <React.Fragment>
         <title>{structuredData.headline}</title>
-        <meta property="og:site_name" content="카그린의 개발 블로그" />
+        <meta property="og:site_name" content="Marx Camping Log" />
 
         <meta property="og:title" content={structuredData.headline} />
         <meta name="twitter:title" content={structuredData.headline} />
