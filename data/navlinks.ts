@@ -20,7 +20,7 @@ export interface Navlinks {
 
 const navlinks: Navlinks[] = [
   { title: "Portfolio Notion", link: "https://upbeat-spoonbill-0f2.notion.site/Portfolio-87844fbd525943cba8a49eb56ed7efab" },
-  { title: "Camp", link: "/camping", length: allJs.length }
+  { title: "Camping", link: "/camping", length: allJs.length }
 ];
 
 export default navlinks;
