@@ -1,7 +1,10 @@
 module.exports = {
-  siteUrl: "https://kagrin97-blog.vercel.app",
+  siteUrl: 'https://marx-blog-taupe.vercel.app',
   generateRobotsTxt: true,
-  sitemapSize: 7000,
-  changefreq: "daily",
-  priority: 0.5,
-};
+  exclude: ['/server-sitemap.xml'], // <= exclude here
+  robotsTxtOptions: {
+  additionalSitemaps: [ 
+    'https://marx-blog-taupe.vercel.app/server-sitemap.xml', // <==== Add here 
+  ], 
+}, 
+}
